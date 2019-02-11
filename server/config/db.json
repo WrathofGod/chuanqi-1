@@ -1,0 +1,50 @@
+{
+  "uwCnn": {
+    "name": "uwCnn",
+    "dbModule": "mysql",
+    "host": "192.168.0.11",
+    "port": "3306",
+    "user": "root",
+    "password": "llRoot",
+    "database": "longmen",
+    "debug": [
+      "ComQueryPacket"
+    ]
+  },
+  "mainCnn": {
+    "name": "mainCnn",
+    "dbModule": "mysql",
+    "host":  "192.168.0.11",
+    "port":  "3306",
+    "user":  "root",
+    "password": "llRoot",
+    "database":  "longmen",
+    "debug": [
+      "ComQueryPacket"
+    ]
+  },
+  "kefuCnn": {
+    "name": "kefuCnn",
+    "dbModule": "mysql",
+    "host":  "192.168.0.11",
+    "port":  "3306",
+    "user":  "root",
+    "password": "llRoot",
+    "database":  "longmen",
+    "debug": [
+      "ComQueryPacket"
+    ]
+  },
+  "loginCnn": {
+      "name": "loginCnn",
+      "dbModule": "mysql",
+      "host":  "192.168.0.11",
+      "port":  "3306",
+      "user":  "root",
+      "password": "llRoot",
+      "database":  "longmen",
+      "debug": [
+        "ComQueryPacket"
+      ]
+    }
+}

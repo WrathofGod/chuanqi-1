@@ -1,0 +1,7 @@
+99999	test	测试	测试
+10001	egret_common_android	egret	联运
+10002	egret_qqbrowser_android	egret	qq浏览器
+10003	egret_liebao	egret	猎豹
+10004	egret_wan8	egret	玩吧
+10005	hgame	other	蝴蝶互动
+10006	hgame	other	AA资源网

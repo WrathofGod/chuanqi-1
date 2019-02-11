@@ -1,0 +1,132 @@
+{
+  "appenders": [
+    {
+      "type": "console"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/con-log/con-log",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "con-log"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/rpc-log/rpc-log",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "rpc-log"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/forward-log/forward-log",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "forward-log"
+    },
+    {
+     "type": "dateFile",
+     "filename": "./logs/pomelo/rpc-debug/rpc-debug",
+     "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+     "layout": {
+      "type": "basic"
+     },
+     "backups": 5,
+     "category": "rpc-debug"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/crash-log/crash-log",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category":"crash-log"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/admin-log/admin-log",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+          "type": "basic"
+        }
+      ,"backups": 5,
+      "category":"admin-log"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/pomelo/pomelo",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+          "type": "basic"
+        }
+      ,"backups": 5,
+      "category":"pomelo"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/pomelo-admin/pomelo-admin",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+          "type": "basic"
+        }
+      ,"backups": 5,
+      "category":"pomelo-admin"
+    },
+    {
+      "type": "dateFile",
+      "filename": "./logs/pomelo/pomelo-rpc/pomelo-rpc",
+      "maxLogSize": 1048576,
+      "pattern": "_yyyy-MM-dd.log",
+      "alwaysIncludePattern": true,
+      "layout": {
+          "type": "basic"
+        }
+      ,"backups": 5,
+      "category":"pomelo-rpc"
+    }
+  ],
+
+  "levels": {
+      "console" : "DEBUG",
+      "con-log" : "DEBUG",
+      "rpc-log" : "DEBUG",
+      "forward-log" : "DEBUG",
+      "rpc-debug" : "DEBUG",
+      "crash-log" : "DEBUG",
+      "admin-log" : "DEBUG",
+      "pomelo" :  "DEBUG",
+      "pomelo-admin" : "DEBUG",
+      "pomelo-rpc" :  "DEBUG"
+  },
+
+  "replaceConsole": true,
+
+  "lineDebug": false
+}
